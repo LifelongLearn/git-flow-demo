@@ -22,8 +22,14 @@ prefix
 # 步骤
 
 ## 1.开发新功能
+
+为新功能创建分支
 ```cmd
 git flow feature start [分支名]
+```
+把新功能合并到develop分支
+```cmd
+git flow feature finish [分支名]
 ```
 
 有疑问查看 
