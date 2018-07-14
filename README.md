@@ -68,4 +68,4 @@ git flow release finish [版本号]
 
 ## 3.快速修复HotFix
 
-创建hotfix
+创建hotfix (hotfix修复)
