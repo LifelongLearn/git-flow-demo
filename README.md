@@ -65,3 +65,7 @@ git flow release start [版本号]
 ```cmd
 git flow release finish [版本号]
 ```
+
+## 3.快速修复HotFix
+
+创建hotfix
