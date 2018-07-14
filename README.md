@@ -52,3 +52,20 @@ usage: git flow feature [list]
 
     Manage your feature branches.
 ```
+
+
+## 2.发布新功能
+
+创建release（名称使用版本号，发布成功自动生成tag）
+```cmd
+git flow release start [版本号]
+```
+
+完成release（需要合并到develop和master分支上，写备注否则tag打不上去）
+```cmd
+git flow release finish [版本号]
+```
+
+## 3.快速修复HotFix
+
+创建hotfix
